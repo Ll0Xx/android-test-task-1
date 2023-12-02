@@ -3,5 +3,5 @@
     <color name="colorPrimary">#767676</color>
     <color name="colorPrimaryVariant">#9F9F9F</color>
     <color name="toolbar_text_color">#000000</color>
-    <color name="toolbar_dackground">#FFFFFF</color>
+    <color name="toolbar_dackground">#BEBEBE</color>
 </resources>

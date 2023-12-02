@@ -1,14 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Theme.Androidtesttask1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@android:color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
@@ -18,7 +12,16 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Androidtesttask1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Androidtesttask1.AppBarLayout" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="titleCentered">true</item>
+    </style>
 
-    <style name="Theme.Androidtesttask1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Androidtesttask1.TitleText" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/toolbar_text_color</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Theme.Androidtesttask1.ToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/toolbar_dackground</item>
+    </style>
 </resources>
