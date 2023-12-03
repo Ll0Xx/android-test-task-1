@@ -10,4 +10,5 @@
     <string name="menu_home">Test Android</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="home_fragment_text">Charlotte Perriand’s “La maison au bord de l’eau”</string>
 </resources>
