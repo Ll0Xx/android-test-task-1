@@ -20,6 +20,6 @@ class HomeViewModel(private val application: Application) : AndroidViewModel(app
 class HomeViewModelFactory(private val application: Application) :
     ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        return HomeViewModel(application) as T;
+        return HomeViewModel(application) as T
     }
 }

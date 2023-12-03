@@ -7,7 +7,6 @@ import android.graphics.Paint
 import android.graphics.Rect
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
-import androidx.core.content.ContextCompat
 import com.antont.android_test_task_1.R
 
 class HighlightedTextView @JvmOverloads constructor(
