@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@android:color/black"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
     tools:context=".ui.home.HomeFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -24,8 +24,11 @@
 
         <com.antont.android_test_task_1.ui.view.HighlightedTextView
             android:id="@+id/textView"
+            style="@style/home_fragment_text"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             app:highlightColor="@android:color/white"
             app:highlightPadding="6px"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -33,8 +36,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView"
             app:textAllCaps="true"
-            tools:text="Charlotte Perriand’s “La maison au bord de l’eau”"
-            style="@style/home_fragment_text" />
+            tools:text="Charlotte Perriand’s “La maison au bord de l’eau”" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
